@@ -62,8 +62,7 @@
                 <requireJavaVersion>
                   <version>[11,)</version>
                 </requireJavaVersion>
-                <build>
-              </rules>
+                </rules>
             </configuration>
           </execution>
         </executions>
