@@ -57,23 +57,12 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.8.6,)</version>
+                 <version>[3.6.3,)</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
                   <version>[11,)</version>
                 </requireJavaVersion>
                 <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.6</version> <!-- Specify the desired Maven version here -->
-            <!-- Other plugin configuration -->
-        </plugin>
-        <!-- Other plugins and configurations -->
-    </plugins>
-</build>
-
               </rules>
             </configuration>
           </execution>
