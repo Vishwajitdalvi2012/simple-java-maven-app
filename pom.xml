@@ -8,33 +8,22 @@
   <name>my-app</name>
   <url>https://maven.apache.org</url>
   <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.10.0</version>
-      <scope>test</scope>
-    </dependency>
+    <!-- Your dependencies here -->
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
     <plugins>
-      <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.1</version>
-            <configuration>
-                <warName>my-web-app</warName>
-            </configuration>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+        <configuration>
+          <warName>my-web-app</warName>
+        </configuration>
+      </plugin>
+      <!-- Other plugins -->
     </plugins>
   </build>
 </project>
